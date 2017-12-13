@@ -108,6 +108,11 @@ namespace PasswordStrength
             }
             set
             {
+                if (value > this.BarContentList.Count)
+                {
+                    value = this.BarContentList.Count;
+                }
+
                 this._currentPasswordLevel = value;
 
                 this.Refresh();

@@ -28,8 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // PasswordStrength
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Name = "PasswordStrength";
+            this.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
+            this.Size = new System.Drawing.Size(200, 30);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
