@@ -8,6 +8,8 @@
 
 
 #以下为文件更新列表，当有新功能加入时请更新此文件
+1、PasswordBar.cs；
+2、PasswordStrength - 密码强度自定义控件
 
 			
 
